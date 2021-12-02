@@ -6,7 +6,7 @@
 /*   By: ahorling <ahorling@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/12/02 19:30:30 by ahorling      #+#    #+#                 */
-/*   Updated: 2021/12/02 21:13:18 by ahorling      ########   odam.nl         */
+/*   Updated: 2021/12/02 21:22:20 by ahorling      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -181,6 +181,6 @@ int		main()
 	printf("horizontal: %d\n", totalforward);
 	printf("depth down: %d\n", totaldown);
 	printf("depth up: %d\n", totalup);
-	printf("distance traveled: %d\n", (totalforward+2)*(totaldown-totalup));
+	printf("distance traveled: %d\n", (totalforward)*(totaldown-totalup));
 	return (0);
 }
